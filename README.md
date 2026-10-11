@@ -6,6 +6,19 @@ Built with **Spring Boot 3 (Java 21)**, **MySQL 8.0**, and **React 19 (Vite)** w
 
 ---
 
+## 🌐 Live Deployments & Repository Links
+
+- **🚀 Live Web Application (Vercel):** [https://smart-waste-liard.vercel.app](https://smart-waste-liard.vercel.app)
+- **⚙️ Live Backend REST API (Render):** [https://waste-management-cxsv.onrender.com](https://waste-management-cxsv.onrender.com)
+- **📖 Live Swagger / OpenAPI Documentation:** [https://waste-management-cxsv.onrender.com/swagger-ui/index.html](https://waste-management-cxsv.onrender.com/swagger-ui/index.html)
+
+### 📁 Dedicated Repositories:
+- **Frontend Repository:** [https://github.com/Srivaninarmeta/waste_management_frontend](https://github.com/Srivaninarmeta/waste_management_frontend)
+- **Backend Repository:** [https://github.com/Srivaninarmeta/waste_management_backend](https://github.com/Srivaninarmeta/waste_management_backend)
+- **Monorepo / Full Project:** [https://github.com/Srivaninarmeta/waste_management](https://github.com/Srivaninarmeta/waste_management)
+
+---
+
 ## 🌟 Key Features by Role
 
 ### 🏡 Resident Portal
