@@ -124,18 +124,7 @@ stateDiagram-v2
 
 ---
 
-## 🎓 College Viva / Project Q&A Guide
 
-### Q1: How is data security handled?
-> **Answer:** We implement stateless authentication using JSON Web Tokens (JWT). When a user logs in, Spring Security validates credentials with BCrypt hashing and issues an HMAC-SHA256 signed JWT token. The React frontend sends this token in the `Authorization: Bearer <token>` header for subsequent requests. Role-based access control (`@PreAuthorize("hasRole('ADMIN')")`) protects sensitive administrative and worker endpoints.
-
-### Q2: How does the system handle database concurrency and auditability?
-> **Answer:** Every request status modification records a permanent entry in `pickup_status_history` containing the previous status, new status, timestamp, worker/admin identifier, and notes. This guarantees non-repudiation and a transparent audit trail for municipal governance.
-
-### Q3: What happens if an unauthenticated user tries to access the dashboard?
-> **Answer:** In the React frontend, protected routes use a custom `ProtectedRoute` wrapper checking authentication and role authorization. Unauthorized attempts redirect to `/login`. On the backend, Spring Security responds with `401 Unauthorized` or `403 Forbidden`.
-
----
 
 ## 📁 Project Directory Structure
 
